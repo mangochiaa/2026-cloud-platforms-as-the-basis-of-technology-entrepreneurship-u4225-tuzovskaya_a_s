@@ -6,7 +6,7 @@ Group: u4225
 Author: Тузовская Арина Сергеевна
 Lab: Lab1
 Date of create: 30.09.2026
-Date of finished: 
+Date of finished: 30.09.2026
 
 ## Цель работы
 
