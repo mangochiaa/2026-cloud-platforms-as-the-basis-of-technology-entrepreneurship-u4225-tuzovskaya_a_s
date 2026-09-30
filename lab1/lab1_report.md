@@ -18,13 +18,13 @@ Date of finished: 30.09.2026
 
 Была заполнена Google-форма для получения доступа к Google Cloud. После предоставления доступа был открыт проект `cloud-platforms-as-the-basis`.
 
-![Скриншот 1: Доступ к проекту Google Cloud](../step0.png)
+![Скриншот 1: Доступ к проекту Google Cloud](screenshots/step0.png)
 
 ### 2. Создание Service Account
 
 В разделе **IAM & Admin → Service Accounts** был создан сервисный аккаунт `atuzovskaya-sa-lab1` с ролью **Storage Admin**.
 
-![Скриншот 2: Созданный Service Account](../step1.png)
+![Скриншот 2: Созданный Service Account](screenshots/step1.png)
 
 ### 3. Создание виртуальной машины
 
@@ -35,7 +35,7 @@ Date of finished: 30.09.2026
 - **Provisioning model:** Spot
 - **Firewall:** разрешён HTTP и HTTPS трафик
 
-![Скриншот 3: Созданная виртуальная машина](../step2.png)
+![Скриншот 3: Созданная виртуальная машина](screenshots/step2.png)
 
 ### 4. Копирование файлов из бакета
 
@@ -43,17 +43,17 @@ Date of finished: 30.09.2026
 
 Команда `ls -lah` подтвердила наличие трёх файлов на VM: `pic1.jpg`, `pic2.jpg`, `pic3.jpeg`.
 
-![Скриншот 4: Файлы скопированы на VM](../step3.png)
+![Скриншот 4: Файлы скопированы на VM](screenshots/step3.png)
 
 ### 5. Изменение прав доступа и повторная проверка
 
 Роль сервисного аккаунта `atuzovskaya-sa-lab1` была изменена с **Storage Admin** на **Compute Viewer**.
 
-![Скриншот 5: Роль изменена на Compute Viewer](../step4-1.png)
+![Скриншот 5: Роль изменена на Compute Viewer](screenshots/step4-1.png)
 
 После этого была предпринята повторная попытка копирования файлов из бакета. Копирование снова прошло успешно.
 
-![Скриншот 6: Копирование файлов повторно выполнено успешно](../step4-2.png)
+![Скриншот 6: Копирование файлов повторно выполнено успешно](screenshots/step4-2.png)
 
 ### 6. Анализ результата
 
@@ -68,7 +68,7 @@ Date of finished: 30.09.2026
 - Виртуальная машина `atuzovskaya-vm-lab1`
 - Сервисный аккаунт `atuzovskaya-sa-lab1`
 
-![Скриншот 7: Ресурсы удалены](../step5.png)
+![Скриншот 7: Ресурсы удалены](screenshots/step5.png)
 
 ## Вывод
 
