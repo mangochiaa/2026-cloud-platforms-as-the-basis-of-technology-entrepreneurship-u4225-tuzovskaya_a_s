@@ -18,13 +18,13 @@ Date of finished: 30.09.2026
 
 Была заполнена Google-форма для получения доступа к Google Cloud. После предоставления доступа был открыт проект `cloud-platforms-as-the-basis`.
 
-![Скриншот 1: Доступ к проекту Google Cloud](<img width="1465" height="834" alt="step0" src="https://github.com/user-attachments/assets/46aa559e-b8dc-437f-aaa7-5993bb04db1b" />)
+![Скриншот 1: Доступ к проекту Google Cloud](../step0.png)
 
 ### 2. Создание Service Account
 
 В разделе **IAM & Admin → Service Accounts** был создан сервисный аккаунт `atuzovskaya-sa-lab1` с ролью **Storage Admin**.
 
-![Скриншот 2: Созданный Service Account](<img width="1178" height="587" alt="step1" src="https://github.com/user-attachments/assets/fab13573-1676-4525-b8d9-f1f4a6a832a2" />)
+![Скриншот 2: Созданный Service Account](../step1.png)
 
 ### 3. Создание виртуальной машины
 
@@ -35,7 +35,7 @@ Date of finished: 30.09.2026
 - **Provisioning model:** Spot
 - **Firewall:** разрешён HTTP и HTTPS трафик
 
-![Скриншот 3: Созданная виртуальная машина](<img width="1180" height="362" alt="step2" src="https://github.com/user-attachments/assets/9f910ddb-0a44-44e6-978c-7a87c9099860" />)
+![Скриншот 3: Созданная виртуальная машина](../step2.png)
 
 ### 4. Копирование файлов из бакета
 
@@ -43,17 +43,17 @@ Date of finished: 30.09.2026
 
 Команда `ls -lah` подтвердила наличие трёх файлов на VM: `pic1.jpg`, `pic2.jpg`, `pic3.jpeg`.
 
-![Скриншот 4: Файлы скопированы на VM](<img width="1455" height="607" alt="step3" src="https://github.com/user-attachments/assets/5325bced-8a83-4e8c-88db-208dddcee27c" />)
+![Скриншот 4: Файлы скопированы на VM](../step3.png)
 
 ### 5. Изменение прав доступа и повторная проверка
 
 Роль сервисного аккаунта `atuzovskaya-sa-lab1` была изменена с **Storage Admin** на **Compute Viewer**.
 
-![Скриншот 5: Роль изменена на Compute Viewer](<img width="1167" height="735" alt="step4-1" src="https://github.com/user-attachments/assets/5d67df6e-cf91-4fc3-90a6-638def5f1b04" />)
+![Скриншот 5: Роль изменена на Compute Viewer](../step4-1.png)
 
 После этого была предпринята повторная попытка копирования файлов из бакета. Копирование снова прошло успешно.
 
-![Скриншот 6: Копирование файлов повторно выполнено успешно](<img width="1455" height="508" alt="step4-2" src="https://github.com/user-attachments/assets/7c1d2999-00bf-4a03-a04c-b503470a08a2" />)
+![Скриншот 6: Копирование файлов повторно выполнено успешно](../step4-2.png)
 
 ### 6. Анализ результата
 
@@ -68,7 +68,7 @@ Date of finished: 30.09.2026
 - Виртуальная машина `atuzovskaya-vm-lab1`
 - Сервисный аккаунт `atuzovskaya-sa-lab1`
 
-![Скриншот 7: Ресурсы удалены](<img width="1184" height="761" alt="step5" src="https://github.com/user-attachments/assets/68ab7d1a-fb07-4ea7-a1d9-6c88a6ef974a" />)
+![Скриншот 7: Ресурсы удалены](../step5.png)
 
 ## Вывод
 
