@@ -15,5 +15,3 @@
 - [Lab 2](./lab2/lab2_report.md)
 - [Lab 3](./lab3/lab3_report.md)
 - [Lab 4](./lab4/lab4_report.md)
-
-## Замечания по работе
